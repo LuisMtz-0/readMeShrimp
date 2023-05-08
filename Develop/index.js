@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
+// will be in charge of creating a file
 const fs = require('fs');
+// This is in charge of getting the data from the file generatedMarkdown
 const generateMarkdown = require('./utils/generateMarkdown');
 const { resolve } = require('path');
 const { rejects } = require('assert');
