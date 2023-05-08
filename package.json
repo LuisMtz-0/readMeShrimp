@@ -1,0 +1,26 @@
+{
+  "name": "readmeshrimp",
+  "version": "1.0.0",
+  "description": "this will create ReadMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LuisMtz-0",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMtz-0/readMeShrimp.git"
+  },
+  "keywords": [
+    "readMeShrimp"
+  ],
+  "bugs": {
+    "url": "https://github.com/LuisMtz-0/readMeShrimp/issues"
+  },
+  "homepage": "https://github.com/LuisMtz-0/readMeShrimp#readme"
+}
