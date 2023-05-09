@@ -2,9 +2,9 @@
 const inquirer = require('inquirer')
 // will be in charge of creating a file
 const fs = require('fs');
+const { resolve } = require('path');
 // This is in charge of getting the data from the file generatedMarkdown
 const generateMarkdown = require('./utils/generateMarkdown');
-const { resolve } = require('path');
 const { rejects } = require('assert');
 // TODO: Create an array of questions for user input
 const promptQuestions = () => {
@@ -75,8 +75,8 @@ const createReadMe = data => {
             reject(err);
             return;
         }
-
-        resolve({
+// console.log("This worked")
+        resolve({ 
             ok: true,
             message: 'File created!'
         });

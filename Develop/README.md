@@ -3,7 +3,7 @@
 
   ## Description
 
-  This program was created to help developers focused more time on building their application then using most of their time to create a read me. This way we can solve their problem by creating a main focus on important part for a read me. Main problem I faced was  se arching  how ott   use  the e .this  fufunction
+  This will help programers focus more on on their application than on making sure their read me file is correct . by giving them the most important questions they don't have to worried about missing information
 
   ## Installation
 
